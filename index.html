@@ -26,7 +26,7 @@
         <h1 class="text-2xl font-bold hind-madurai">Emergency <br> Service</h1>
     </div>
     <div class="flex">
-        <button class="bg-[#41ff6b1a] h-[50px] w-[100px] rounded-4xl"><span>0</span> <i class="fa-solid fa-heart"></i></button>
+        <button class="bg-[#41ff6b1a] h-[50px] w-[100px] rounded-4xl text-[24px] "><span id="favoriteCount"> 0 </span><span>💗</span></button>
         <button class="bg-[#41ff6b1a] h-[50px] w-[100px] rounded-4xl"><span>0</span> <i class="fa-solid fa-coins"></i></button>
         <button class="bg-green-600 h-[50px] w-[100px] rounded-4xl text-white"><span>0</span> Copy</button>
     </div>
@@ -40,14 +40,14 @@
      </div>
 
      <!-- Main Section start here -->
-    <div class="  bg-gray-50 p-5 flex flex-auto items-center justify-between">
+    <div class="  bg-gray-50 p-5 flex items-center  ">
        <div class="w-[1370px] h-[1140px] grid grid-cols-3 gap-2 p-2 mt-10 ">
         <!-- Emergency Hotline Section/Card Section -->  <!-- card one -->
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -66,11 +66,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/police.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -89,11 +89,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/fire-service.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -112,11 +112,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/ambulance.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -135,11 +135,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -158,11 +158,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+             <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -181,11 +181,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -204,11 +204,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -227,11 +227,11 @@
           </div>
 
         </div>
-        <div class="w-[437px] h-[360px] bg-white shadow-md rounded-xl p-5 ">
+        <div class="max-w-fit max-h-fit bg-white shadow-md rounded-xl p-5 ">
             <div class="flex items-center justify-between gap-3 p-4">
             <div class="w-[60px] h-[60px] bg-[#FFE3E2] rounded-2xl flex items-center justify-center"><img class="w-[32px] h-[32px]" src="assets/emergency.png" alt="emergency"> </div>
             <div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart cursor-pointer text-[24px]" onclick="increaseCount()"></i>
             </div>
           </div>
 
@@ -262,5 +262,7 @@
              <button class="bg-green-600 h-[50px] w-[100px] rounded-4xl text-white">Clear</button>
             </div>
        </div>
+
+       <script src="index.js"> </script>
 </body>
 </html>
